@@ -12,6 +12,8 @@ void hanoi(int n,int x,int y) {
 int main() {
 
 	int n;
+	//test git new branch
+    int test = 0;
 
 	scanf("%d",&n);
 	printf("%d\n",(1<<n)-1);

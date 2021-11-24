@@ -6,6 +6,8 @@ using namespace std;
 
 int main() {
 
+	//test git new branch
+	int test = 0;
 	int n, m;
 	int result = 0;
 	cin >> n >> m;

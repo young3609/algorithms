@@ -5,11 +5,13 @@
 
 using namespace std;
 char str[36];
-//°è»ê¹ı (()[])() -> (())([])()
+//ï¿½ï¿½ï¿½ï¿½ (()[])() -> (())([])()
 int main()
 {
 	stack<char>Stack;
 	cin >> str;
+	//test git new branch
+	int test = 0;
 	int mul = 1, sum = 0;
 	for (int i = 0; i<strlen(str); i++)
 	{
